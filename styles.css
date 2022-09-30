@@ -1,0 +1,20 @@
+.Bow img {
+    height: 50vh;
+    position: absolute;
+    top: 1%;
+    left:5%;
+}
+
+.grid{
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div{
+    width: 5vh;
+    height: 5vh;
+    background-color: aquamarine;
+    z-index: 1;
+    opacity:0;
+}
