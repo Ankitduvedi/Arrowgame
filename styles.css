@@ -1,11 +1,30 @@
 .Bow img {
     height: 50vh;
     position: absolute;
-    top: 1%;
+    top: 20%;
     left:5%;
 }
 
+.div-target{
+    position: absolute;
+    top: 60%;
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    right: 3%;
+}
+.div-target div{
+    width: 3vh;
+    height: 3vh;
+    background-color: aquamarine;
+    z-index: 1;
+    right: 3%;
+    opacity: 0;
+}
 .grid{
+    position: absolute;
+    top: 20%;
     height: 50vh;
     width: 50vh;
     display: flex;
@@ -17,4 +36,19 @@
     background-color: aquamarine;
     z-index: 1;
     opacity:0;
+}
+.Arrow img{
+    width: 28vh; 
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    transform: rotate(-20deg);
+    z-index: 0;
+}
+
+.target img{
+    position: absolute;
+    right: 3%;
+    height: 30vh;
+    z-index: -1;
 }
